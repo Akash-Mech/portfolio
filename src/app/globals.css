@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: 'Poppins';
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-title{
+    @apply  font-semibold text-6xl text-center mb-8 border-b-2 border-primary w-fit mx-auto  pb-2
+  }
+
+  .sub-title{
+    @apply  font-medium text-3xl  mb-2
+  }
+
+  .section-content{
+    @apply  text-justify text-lg 
+  }
+
+  .btn{
+    @apply bg-primary px-4 py-2 rounded-md cursor-pointer hover:-translate-y-2 transition-all duration-300 
+  }
+
+  .nav-menu{
+    @apply  hover:bg-primary  px-2 py-1 rounded-full transition-all duration-300 
+  }
+
+  .card {
+    @apply p-4 space-y-5 transition-all duration-500  shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[5.8px] border rounded-md border-solid border-[rgba(255,255,255,0.74)];
+    background: rgba(245, 222, 202, 0.21);
+    -webkit-backdrop-filter: blur(5.8px);;
+  }
+
+  .project-card {
+    @apply p-4 transition-all duration-500 border rounded-md border-solid border-[rgba(255,255,255,0.74)];
+  }
+
+  .contact-card{
+    @apply flex items-center gap-4 py-8 px-6 transition-all duration-300 ;
+    background: linear-gradient(-90deg, transparent, rgba(183, 54, 7, 0.233));
+  }
+  
+}
