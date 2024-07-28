@@ -6,17 +6,12 @@ import Title from "./common/Title";
 const Contact = () => {
   const contactDetails = [
     {
-        id: 1,
-      icon: <FaLinkedin />,
-      data: "Akash SM ",
-    },
-    {
-        id:2,
+        id:1,
       icon: <MdOutlineEmail />,
       data: "akashsmani05@gmail.com",
     },
     {
-        id:3,
+        id:2,
       icon: <MdOutlineLocalPhone />,
       data: "7094750797",
     },
@@ -24,7 +19,7 @@ const Contact = () => {
   return (
     <div id="contact" className="mb-20">
       <Title title="Contact"/>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2">
         {contactDetails.map((detail) => {
             return(
                 <div key={detail.id} className="mx-auto contact-card">
