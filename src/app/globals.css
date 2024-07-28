@@ -28,7 +28,7 @@ body {
   }
 
   .section-title{
-    @apply  font-semibold text-6xl text-center mb-8 border-b-2 border-primary w-fit mx-auto  pb-2
+    @apply  font-semibold text-4xl md:text-6xl text-center mb-8 border-b-2 border-primary w-fit mx-auto  pb-2
   }
 
   .sub-title{
