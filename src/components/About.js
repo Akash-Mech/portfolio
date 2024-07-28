@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="mb-20" id="about">
       <Title title="About Me"/>
-      <p className="section-content text-center">
+      <p className="section-content md:text-center">
         I am a proficient Frontend developer and RPA developer with over <b className="text-xl">1.5+
         years</b> of experience in crafting responsive websites and developing
         automation solutions. I am known for delivering well-structured,

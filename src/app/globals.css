@@ -36,7 +36,7 @@ body {
   }
 
   .section-content{
-    @apply  text-justify text-lg 
+    @apply   text-lg 
   }
 
   .btn{
