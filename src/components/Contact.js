@@ -18,7 +18,7 @@ const Contact = () => {
     {
         id:3,
       icon: <MdOutlineLocalPhone />,
-      data: "704750797",
+      data: "7094750797",
     },
   ];
   return (

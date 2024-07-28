@@ -58,7 +58,7 @@ body {
   }
 
   .contact-card{
-    @apply flex items-center gap-4 py-8 px-6 transition-all duration-300 ;
+    @apply flex items-center gap-4 py-8 px-2 transition-all duration-300 ;
     background: linear-gradient(-90deg, transparent, rgba(183, 54, 7, 0.233));
   }
   

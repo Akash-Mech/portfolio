@@ -72,7 +72,7 @@ const Projects = () => {
                 )}
 
                 <p className="section-content ml-4">{data.tech}</p>
-                <div className="flex gap-2">
+                <div className="flex gap-3">
                   {data.git && (
                       <Link className="btn" target="_blank" href={data.git}> Github</Link>
                   )}
