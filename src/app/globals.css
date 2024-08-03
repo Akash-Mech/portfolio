@@ -32,11 +32,11 @@ body {
   }
 
   .sub-title{
-    @apply  font-medium text-3xl  mb-2
+    @apply  font-medium text-xl  mb-1
   }
 
   .section-content{
-    @apply   text-lg 
+    @apply   text-base font-extralight
   }
 
   .btn{
@@ -49,12 +49,12 @@ body {
 
   .card {
     @apply p-4 space-y-5 transition-all duration-500  shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[5.8px] border rounded-md border-solid border-[rgba(255,255,255,0.74)];
-    background: rgba(245, 222, 202, 0.21);
+    background: rgba(87, 86, 85, 0.5);
     -webkit-backdrop-filter: blur(5.8px);;
   }
 
   .project-card {
-    @apply p-4 transition-all duration-500 border rounded-md border-solid border-[rgba(255,255,255,0.74)];
+    @apply p-2 my-4 transition-all hover:scale-95 duration-500 border rounded-md border-solid border-[rgba(255,255,255,0.74)];
   }
 
   .contact-card{
@@ -62,4 +62,12 @@ body {
     background: linear-gradient(-90deg, transparent, rgba(183, 54, 7, 0.233));
   }
   
+}
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  color:#FD6F00 !important;
 }
